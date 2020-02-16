@@ -16,8 +16,8 @@ CONFIG = YAML.load_file(Dir.pwd + '/features/support/fixtures/ambientes.yml') # 
 
 ##### CONFIG CAPYBARA #####
 Capybara.configure do |config|
-    config.default_driver = :selenium_chrome # selenium_chrome_headless ou selenium_chrome
+    config.default_driver = :selenium # selenium_chrome_headless ou selenium_chrome
     config.app_host = CONFIG[AMBIENTE]
-    config.default_max_wait_time = 30
+    config.default_max_wait_time = 15
     Capybara.page.driver.browser.manage.window.maximize
   end

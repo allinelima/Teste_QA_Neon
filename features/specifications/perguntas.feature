@@ -7,13 +7,13 @@ Quero cancelar minha conta,tirar minhas dúvidas e ver qual a documentação nec
 Contexto: Estou no site do Neon
 Dado que estou na home do site do Neon
 
-@all@cancelamento
+@cancelamento
 Cenario: Validar o texto da resposta da pergunta: “Quero cancelar minha conta. Como faço?”
 Quando acesso a aba de Perguntas
 E acesso dentro do Topico Outros Assuntos a opção de Cancelamento
 Então Valido se o texto de resposta esta com os passos informados corretos
 
-@all @contapj
+@contapj
 Cenario: Validar os documentos validos em Abra sua conta Pejota
 Quando acesso a Abra sua conta dentro da aba Pejota
 Então verifico quais documentos de todos os socios são necessários.

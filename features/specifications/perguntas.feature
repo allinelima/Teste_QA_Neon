@@ -16,4 +16,4 @@ Então Valido se o texto de resposta esta com os passos informados corretos
 @all @contapj
 Cenario: Validar os documentos validos em Abra sua conta Pejota
 Quando acesso a Abra sua conta dentro da aba Pejota
-Então Valido quais documentos são validos na opção
+Então verifico quais documentos de todos os socios são necessários.

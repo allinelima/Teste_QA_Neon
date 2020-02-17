@@ -19,10 +19,6 @@ Cenario: Validar o texto da resposta da pergunta: “Quero cancelar minha conta.
 
 cucumber -p prod -t @cancelamento
 
-Cenario: Inserir o e-mail para acessar a conta Pejota
-
-cucumber -p prod -t @login
-
 Built With
 
 [cucumber]
